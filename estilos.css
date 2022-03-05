@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* --------------------------------------BARRA DE NAVEGACION */
+
+
+.barra-navegacion{
+    margin-bottom: 10px;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-derecha{
+    display: flex;
+}
+
+.nav-izquierda li a{
+    padding: 10px;
+}
+
+.nav-derecha li a{
+    padding: 10px;
+}
+
+
+ul li a:hover{
+    border-bottom: 3px solid #000000;
+    cursor: pointer;
+}
+
+
+.showcase{
+    background-image: url("./img/showcase2.jpg");
+}
