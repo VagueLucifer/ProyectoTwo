@@ -105,14 +105,39 @@ ul li a:hover{
     
 .tipos{
     display: flex;
+
 }
 
-.tipos-derecha-izquierda{
+.tipos-izquierda{
     background-image: url("./img/back1.jpg");
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 400px;
-    /* color: red; */
+    height: 425px;
+    color: #fff;
     margin-bottom: 25px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.tipos-derecha-arriba{
+    background-image: url("./img/back2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.tipos-derecha-abajo{
+    background-image: url("./img/back2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    margin-bottom: 25px;
+    border-radius: 5px;
 }
