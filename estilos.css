@@ -61,6 +61,7 @@ ul li a:hover{
     color: white;
     display: flex;
     margin-bottom: 25px;
+    border-radius: 5px;
 }
 
 .btn {
@@ -132,7 +133,7 @@ ul li a:hover{
 }
 
 .tipos-derecha-abajo{
-    background-image: url("./img/back2.jpg");
+    background-image: url("./img/back3.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -140,4 +141,22 @@ ul li a:hover{
     color: #fff;
     margin-bottom: 25px;
     border-radius: 5px;
+}
+
+/*---------------------------------------- CODIGO DE LAS ESPECIFICACIONES */
+
+.especificaciones{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+
+
+.espe-image{
+    height: 100px;
+}
+
+h5{
+    text-align: center;
 }
