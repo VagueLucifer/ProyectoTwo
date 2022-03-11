@@ -148,7 +148,7 @@ ul li a:hover{
 .especificaciones{
     display: flex;
     margin-top: 10px;
-
+    margin-bottom: 20px;
 }
 
 
@@ -157,6 +157,25 @@ ul li a:hover{
     height: 100px;
 }
 
-h5{
+h3{
     text-align: center;
 }
+
+/*---------------------------------------------------------CODIGO DEL FOOTER */
+i{
+    color: orange;
+}
+
+.pie{
+    background-color: #323232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
